@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // this defines what 1rem is
+  font-size: 85%;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.App {
+  font-size: 1.4rem;
+  min-height: 100vh;
+  background-color: $color-background;
+  padding-top: 5rem;
+  color: #fff;
+
+}

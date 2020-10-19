@@ -1,0 +1,106 @@
+.header {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  
+    font-size: 1.8rem;
+    display: flex;
+    @include respond(tab-port) {
+      display: block;
+    }
+    &__details {
+      display: flex;
+  
+      @include respond(tab-port) {
+        display: block;
+        margin-top: 2rem;
+      }
+      // flex-direction: column;
+      color: #7d8187;
+      cursor: pointer;
+      &-complete {
+        margin-right: 2rem;
+        padding-bottom: 1rem;
+        &:hover {
+          color: #c0c0c0;
+        }
+      }
+  
+      &-all {
+        padding-bottom: 1rem;
+        margin-right: 2rem;
+      }
+  
+      &-incomplete {
+        padding-bottom: 1rem;
+        &:hover {
+          color: #c0c0c0;
+        }
+      }
+    }
+  
+    &__short {
+      margin-right: auto;
+      &-tasks {
+        font-size: 1.4rem;
+        color: $color-text;
+        padding-bottom: 1rem;
+      }
+    }
+  }
+  
+  .dragon {
+    color: #fff;
+  }
+  
+  .form {
+    padding-top: 1rem;
+    &__box {
+      width: 50%;
+      padding: 1rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.2rem;
+  
+      &:focus {
+        outline: none;
+      }
+    }
+  
+    &__button {
+      margin-left: 1rem;
+      padding: 1rem;
+      font-size: 1.2rem;
+  
+      border: none;
+      border-radius: 5px;
+      background: $color-background;
+      color: #fff;
+  
+      &:hover {
+        cursor: pointer;
+        background: $color-text;
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+  
+  .edit {
+    width: 50%;
+    border: none;
+    background-image: none;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color: #fff;
+    padding-left: 3.8rem;
+    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+    font-size: 1.2rem;
+  
+    &:focus {
+      outline: none;
+    }
+  }
+  

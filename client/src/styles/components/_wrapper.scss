@@ -1,0 +1,17 @@
+.wrapper {
+    width: 60%;
+  
+    @include respond(tab-port) {
+      width: 90%;
+    }
+  
+    padding: 3rem;
+    margin: 0 auto;
+    background: $color-background-todo;
+    border-radius: 10px;
+    min-height: 550px; // temp
+    -webkit-box-shadow: 5px 6px 3px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 6px 3px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.75);
+  }
+  
