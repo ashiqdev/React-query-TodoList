@@ -2,6 +2,11 @@
 
 ## Run `yarn` from root and client directory
 
+## start your mongod instance
+```
+sudo mongod
+```
+
 ## Run the server
 ### From root directory
 ```
