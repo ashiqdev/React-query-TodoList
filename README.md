@@ -14,7 +14,7 @@ yarn start
 ```
 
 
-## Run the dashbiard
+## Run the dashboard
 ### From client directory
 ```
 yarn start
